@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="placeholder" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .user {
+        fill: none;
+        stroke: #64738b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .background {
+        fill: #f1f5f9;
+      }
+    </style>
+  </defs>
+  <circle id="background" class="background" cx="16" cy="16" r="15"/>
+  <g id="user">
+    <path class="user" d="M21,22.4v-1.4c0-1.6-1.3-2.9-2.9-2.9h-4.3c-1.6,0-2.9,1.3-2.9,2.9v1.4"/>
+    <circle class="user" cx="16" cy="12.4" r="2.9"/>
+  </g>
+</svg>
