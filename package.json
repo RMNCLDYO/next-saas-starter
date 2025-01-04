@@ -1,4 +1,5 @@
 {
+  "name": "next-saas-starter",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -19,11 +20,7 @@
     "@radix-ui/react-scroll-area": "^1.2.2",
     "@radix-ui/react-separator": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.1",
-    "@tailwindcss/postcss": "4.0.0-beta.7",
     "@types/bcryptjs": "^2.4.6",
-    "@types/node": "^22.10.2",
-    "@types/react": "19.0.1",
-    "@types/react-dom": "19.0.2",
     "autoprefixer": "^10.4.20",
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.1",
@@ -33,19 +30,24 @@
     "drizzle-orm": "^0.38.2",
     "jose": "^5.9.6",
     "lucide-react": "^0.468.0",
-    "next": "15.1.1-canary.5",
-    "postcss": "^8.4.49",
     "postgres": "^3.4.5",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
     "server-only": "^0.0.1",
     "stripe": "^16.12.0",
     "tailwind-merge": "^2.5.5",
-    "tailwindcss": "4.0.0-beta.7",
     "tailwindcss-animate": "^1.0.7",
     "tailwindcss-react-aria-components": "1.2.0",
-    "typescript": "^5.7.2",
-    "zod": "^3.24.1"
+    "zod": "^3.24.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0-beta.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^4.0.0-beta.8",
+    "typescript": "^5"
   }
 }
-
